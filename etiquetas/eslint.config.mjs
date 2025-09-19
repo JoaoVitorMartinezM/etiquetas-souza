@@ -16,9 +16,6 @@ const eslintConfig = [
       // ⚠️ Qualidade de código
       "no-console": ["warn", { allow: ["warn", "error"] }],
       "no-debugger": "warn",
-
-      // 🔁 Importações
-      "unused-imports/no-unused-imports": "error",
     },
   },
 ];
