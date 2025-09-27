@@ -13,6 +13,9 @@ export default function Home() {
           <Button className="mb-28 bg-orange-500 font-bold">Conheça Nossos Serviços!</Button>
         </Link>
       </div>
+      <section>
+        
+      </section>
 
       <section className="flex justify-around items-center flex-wrap bg-slate-200 py-8">
         <div className="flex flex-col items-start my-8 w-1/4">

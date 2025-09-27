@@ -4,7 +4,7 @@ import { FormGroup } from "../FormGroup"
 export const ContactForm = () => {
 
 	return (
-			<form action={contactAction} className="flex flex-col text-emerald-300 text-xs space-y-4 font-bold md:items-end w-full px-4">
+			<form action={contactAction} className="flex flex-col text-emerald-300 text-xs space-y-4 font-bold md:items-end w-full md:w-1/3 px-4">
 				<h2 className="text-lg lg:text-3xl md:text-center">Entre em Contato</h2>
 				<FormGroup id="nome" label="Nome" placeholder="Digite seu nome" />
 				<FormGroup id="telefone" label="Telefone" placeholder="(48) 9-8888-0000" type="tel" />
